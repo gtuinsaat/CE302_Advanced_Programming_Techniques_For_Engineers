@@ -1,1 +1,5 @@
-# CE302_Advanced_Programming_Techniques_For_Engineers
+## CE302-Advanced Programming Techniques For Engineers
+
+---
+
+CE302 is a course for undergraduate students in GTU. 
