@@ -2,4 +2,4 @@
 
 ---
 
-CE302 is a course for undergraduate students.
+CE302 is a course for undergraduate students in GTU. 
