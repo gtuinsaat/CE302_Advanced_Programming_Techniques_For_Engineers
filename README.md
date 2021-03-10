@@ -29,3 +29,8 @@ CE302 Advanced Programming Techniques for Engineers
 |14|2.6|Contest|Hackathon|-|
 |15| | |TP|Term Project Presentations|-|
 |16-17| |Final Exam|Final Exam|-|
+
+
+---
+
+Text added
