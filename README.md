@@ -32,5 +32,3 @@ CE302 Advanced Programming Techniques for Engineers
 
 
 ---
-
-Text added
