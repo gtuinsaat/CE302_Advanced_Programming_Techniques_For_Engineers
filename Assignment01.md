@@ -1,3 +1,11 @@
+**Assignment 1**
+
+---
+
+Due date: 2021_0317 + 10 days
+
+---
+
 Dear "CE302 Advanced Programming Techniques for Engineers" Class' Students
 
 You are supposed to write a Python Code to generate a random password creator.
@@ -16,4 +24,5 @@ This code will perform and check the details below:
 3. You'll write for code taking these instructions into account then your code will generate a password.
 
 Please get any kind of collaboration together.
+
 Good luck.
