@@ -17,7 +17,7 @@ if sim.lower() not in answers:
     print('you have to type y or n')
     exit()
 print(33*("*"))
-seq= str(input('Please type shortcode for contains of your password\n'
+seq= str(input('Please type shortcode for contents of your password\n'
                '\na= All'
                '\nn= Only Numbers'
                '\nl = Only Letters'
