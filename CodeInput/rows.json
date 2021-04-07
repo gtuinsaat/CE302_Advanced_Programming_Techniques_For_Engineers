@@ -1,0 +1,965 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "8pnn-kkif",
+      "name" : "COLLEGE_UNIVERSITY",
+      "assetType" : "invalid_datatype",
+      "averageRating" : 0,
+      "createdAt" : 1416274200,
+      "displayType" : "geoRows",
+      "downloadCount" : 2962,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1536599384,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 15701325,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationGroup" : 6260047,
+      "publicationStage" : "published",
+      "tableId" : 6260047,
+      "totalTimesRated" : 0,
+      "viewCount" : 19,
+      "viewLastModified" : 1536598789,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewableUid" : "4kym-4xw5",
+        "reviewedAt" : 1416274245,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 1065712,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1416274245,
+        "workflowId" : 2285,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "5fuc-pqz2",
+          "displayName" : "NYC OpenData"
+        }
+      } ],
+      "childViews" : [ "" ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 234836655,
+        "name" : "the_geom",
+        "dataTypeName" : "point",
+        "fieldName" : "the_geom",
+        "position" : 1,
+        "renderTypeName" : "point",
+        "tableColumnId" : 33434402,
+        "cachedContents" : {
+          "non_null" : "77",
+          "null" : "0",
+          "top" : [ {
+            "item" : {
+              "coordinates" : [ -73.81829898457165, 40.735954805733996 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.98339828552592, 40.74021907770699 ],
+              "type" : "Point"
+            },
+            "count" : "2"
+          }, {
+            "item" : {
+              "coordinates" : [ -74.01295986865433, 40.71458526392435 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -74.01183075983597, 40.71865472056016 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -74.00681944352681, 40.723441859057495 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -74.00479825356436, 40.71110496435334 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99747679976271, 40.73526236196918 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.9921109815578, 40.69306855757583 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99740081950995, 40.69055915437317 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99706966379965, 40.73546280987431 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99649861360797, 40.736553887838184 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99539777630206, 40.724530937742024 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.9953620336229, 40.74868111655497 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99465215457163, 40.73519616365903 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99395097259607, 40.747110544796385 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99787780140895, 40.73207510379186 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99162508259106, 40.72813483481943 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99057872656032, 40.74240548177522 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -74.01263555490442, 40.715434404674916 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.98864638744395, 40.767873514551425 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          } ],
+          "cardinality" : "75"
+        },
+        "format" : { }
+      }, {
+        "id" : 234836656,
+        "name" : "NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33434403,
+        "cachedContents" : {
+          "largest" : "York College (Cuny)",
+          "non_null" : "77",
+          "null" : "0",
+          "top" : [ {
+            "item" : "American Academy Mcallister Institute Of Funeral Service",
+            "count" : "1"
+          }, {
+            "item" : "Bank Street College Of Education / Graduate School Of Education",
+            "count" : "1"
+          }, {
+            "item" : "John Jay College Criminal Justice (Cuny)",
+            "count" : "1"
+          }, {
+            "item" : "College Of New Rochelle, The / School Of New Resources/John Cardinal O?Connor Campus",
+            "count" : "1"
+          }, {
+            "item" : "College Of New Rochelle, The / School Of New Resources/New York Theological Seminary Campus",
+            "count" : "1"
+          }, {
+            "item" : "Barnard College",
+            "count" : "1"
+          }, {
+            "item" : "Pratt Institute",
+            "count" : "1"
+          }, {
+            "item" : "New School University / The New School",
+            "count" : "1"
+          }, {
+            "item" : "Eugenio Maria De Hostos Comm Coll (Cuny)",
+            "count" : "1"
+          }, {
+            "item" : "Long Island College Hospital School Of Nursing",
+            "count" : "1"
+          }, {
+            "item" : "Manhattan School Of Music",
+            "count" : "1"
+          }, {
+            "item" : "Queens College (Cuny)",
+            "count" : "1"
+          }, {
+            "item" : "Boricua College, Northside Center",
+            "count" : "1"
+          }, {
+            "item" : "Cuny Grad School&University Center (Cuny)",
+            "count" : "1"
+          }, {
+            "item" : "Wagner College",
+            "count" : "1"
+          }, {
+            "item" : "College Of New Rochelle, The / School Of New Resources/Rosa Parks Campus",
+            "count" : "1"
+          }, {
+            "item" : "Boricua College",
+            "count" : "1"
+          }, {
+            "item" : "Hunter College (Cuny)",
+            "count" : "1"
+          }, {
+            "item" : "Queens Coll Sch Math & Science",
+            "count" : "1"
+          }, {
+            "item" : "College Of New Rochelle, The / School Of New Resources/District Council 37 Campus",
+            "count" : "1"
+          } ],
+          "smallest" : "American Academy Mcallister Institute Of Funeral Service",
+          "cardinality" : "77"
+        },
+        "format" : { }
+      }, {
+        "id" : 234836660,
+        "name" : "HOUSENUM",
+        "dataTypeName" : "text",
+        "fieldName" : "housenum",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33434407,
+        "cachedContents" : {
+          "largest" : "94-20",
+          "non_null" : "77",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "3"
+          }, {
+            "item" : "450",
+            "count" : "2"
+          }, {
+            "item" : "65-30",
+            "count" : "2"
+          }, {
+            "item" : "55",
+            "count" : "2"
+          }, {
+            "item" : "66",
+            "count" : "2"
+          }, {
+            "item" : "500",
+            "count" : "2"
+          }, {
+            "item" : "94-20",
+            "count" : "1"
+          }, {
+            "item" : "129",
+            "count" : "1"
+          }, {
+            "item" : "69-30",
+            "count" : "1"
+          }, {
+            "item" : "1368",
+            "count" : "1"
+          }, {
+            "item" : "1130",
+            "count" : "1"
+          }, {
+            "item" : "4513",
+            "count" : "1"
+          }, {
+            "item" : "101",
+            "count" : "1"
+          }, {
+            "item" : "200",
+            "count" : "1"
+          }, {
+            "item" : "339",
+            "count" : "1"
+          }, {
+            "item" : "3009",
+            "count" : "1"
+          }, {
+            "item" : "75",
+            "count" : "1"
+          }, {
+            "item" : "65",
+            "count" : "1"
+          }, {
+            "item" : "1879",
+            "count" : "1"
+          }, {
+            "item" : "221",
+            "count" : "1"
+          } ],
+          "smallest" : "",
+          "cardinality" : "70"
+        },
+        "format" : { }
+      }, {
+        "id" : 234836661,
+        "name" : "STREETNAME",
+        "dataTypeName" : "text",
+        "fieldName" : "streetname",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33434408,
+        "cachedContents" : {
+          "largest" : "YORK AVENUE",
+          "non_null" : "77",
+          "null" : "0",
+          "top" : [ {
+            "item" : "BROADWAY",
+            "count" : "3"
+          }, {
+            "item" : "PARK AVENUE",
+            "count" : "2"
+          }, {
+            "item" : "KISSENA BOULEVARD",
+            "count" : "2"
+          }, {
+            "item" : "YORK AVENUE",
+            "count" : "2"
+          }, {
+            "item" : "FIFTH AVENUE",
+            "count" : "2"
+          }, {
+            "item" : "BEDFORD AVENUE",
+            "count" : "2"
+          }, {
+            "item" : "UTOPIA PARKWAY",
+            "count" : "1"
+          }, {
+            "item" : "EAST 71 STREET",
+            "count" : "1"
+          }, {
+            "item" : "WEST 12 STREET",
+            "count" : "1"
+          }, {
+            "item" : "HICKS STREET",
+            "count" : "1"
+          }, {
+            "item" : "10 AVENUE",
+            "count" : "1"
+          }, {
+            "item" : "GRAND CONCOURSE",
+            "count" : "1"
+          }, {
+            "item" : "WEST 23 STREET",
+            "count" : "1"
+          }, {
+            "item" : "EAST 149 STREET",
+            "count" : "1"
+          }, {
+            "item" : "WEST 56 STREET",
+            "count" : "1"
+          }, {
+            "item" : "MANHATTAN COLLEGE PARKWAY",
+            "count" : "1"
+          }, {
+            "item" : "PACE PLAZA",
+            "count" : "1"
+          }, {
+            "item" : "CLAREMONT AVENUE",
+            "count" : "1"
+          }, {
+            "item" : "EAST 79 STREET",
+            "count" : "1"
+          }, {
+            "item" : "WEST 120 STREET",
+            "count" : "1"
+          } ],
+          "smallest" : "10 AVENUE",
+          "cardinality" : "70"
+        },
+        "format" : { }
+      }, {
+        "id" : 234836665,
+        "name" : "CITY",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33434412,
+        "cachedContents" : {
+          "largest" : "Staten Island",
+          "non_null" : "77",
+          "null" : "0",
+          "top" : [ {
+            "item" : "New York",
+            "count" : "43"
+          }, {
+            "item" : "Brooklyn",
+            "count" : "14"
+          }, {
+            "item" : "Bronx",
+            "count" : "8"
+          }, {
+            "item" : "Flushing",
+            "count" : "3"
+          }, {
+            "item" : "Jamaica",
+            "count" : "2"
+          }, {
+            "item" : "Staten Island",
+            "count" : "2"
+          }, {
+            "item" : "Fresh Meadows",
+            "count" : "1"
+          }, {
+            "item" : "Long Island City",
+            "count" : "1"
+          }, {
+            "item" : "Oakland Gardens",
+            "count" : "1"
+          }, {
+            "item" : "Forest Hills",
+            "count" : "1"
+          }, {
+            "item" : "East Elmhurst",
+            "count" : "1"
+          } ],
+          "smallest" : "Bronx",
+          "cardinality" : "11"
+        },
+        "format" : { }
+      }, {
+        "id" : 234836668,
+        "name" : "ZIP",
+        "dataTypeName" : "text",
+        "fieldName" : "zip",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33434415,
+        "cachedContents" : {
+          "largest" : "11433",
+          "non_null" : "77",
+          "null" : "0",
+          "top" : [ {
+            "item" : "10021",
+            "count" : "7"
+          }, {
+            "item" : "10027",
+            "count" : "6"
+          }, {
+            "item" : "11201",
+            "count" : "6"
+          }, {
+            "item" : "10011",
+            "count" : "5"
+          }, {
+            "item" : "10010",
+            "count" : "4"
+          }, {
+            "item" : "11367",
+            "count" : "3"
+          }, {
+            "item" : "11205",
+            "count" : "2"
+          }, {
+            "item" : "10035",
+            "count" : "2"
+          }, {
+            "item" : "10013",
+            "count" : "2"
+          }, {
+            "item" : "10007",
+            "count" : "2"
+          }, {
+            "item" : "10019",
+            "count" : "2"
+          }, {
+            "item" : "10001",
+            "count" : "2"
+          }, {
+            "item" : "10471",
+            "count" : "2"
+          }, {
+            "item" : "10451",
+            "count" : "2"
+          }, {
+            "item" : "10012",
+            "count" : "1"
+          }, {
+            "item" : "10033",
+            "count" : "1"
+          }, {
+            "item" : "11203",
+            "count" : "1"
+          }, {
+            "item" : "10024",
+            "count" : "1"
+          }, {
+            "item" : "10023",
+            "count" : "1"
+          }, {
+            "item" : "11225",
+            "count" : "1"
+          } ],
+          "smallest" : "10001",
+          "cardinality" : "44"
+        },
+        "format" : { }
+      }, {
+        "id" : 234836672,
+        "name" : "URL",
+        "dataTypeName" : "text",
+        "fieldName" : "url",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33434419,
+        "cachedContents" : {
+          "largest" : "http://www.yu.edu/",
+          "non_null" : "77",
+          "null" : "0",
+          "top" : [ {
+            "item" : "http://www.cnr.edu/",
+            "count" : "6"
+          }, {
+            "item" : "http://www.boricuacollege.edu/",
+            "count" : "3"
+          }, {
+            "item" : "http://www.pratt.edu/",
+            "count" : "2"
+          }, {
+            "item" : "http://www.hunter.cuny.edu",
+            "count" : "2"
+          }, {
+            "item" : "http://www.baruch.cuny.edu",
+            "count" : "2"
+          }, {
+            "item" : "http://www.fordham.edu/",
+            "count" : "2"
+          }, {
+            "item" : "http://www.stjohns.edu/pls/portal30/sjudev.school.adminhome",
+            "count" : "2"
+          }, {
+            "item" : "http://www.fitnyc.suny.edu",
+            "count" : "1"
+          }, {
+            "item" : "http://www.sjcny.edu/home.html",
+            "count" : "1"
+          }, {
+            "item" : "http://www.aero.edu/",
+            "count" : "1"
+          }, {
+            "item" : "http://www.hostos.cuny.edu",
+            "count" : "1"
+          }, {
+            "item" : "http://www.yu.edu/",
+            "count" : "1"
+          }, {
+            "item" : "http://www.bankstreet.edu/",
+            "count" : "1"
+          }, {
+            "item" : "http://www.manhattan.edu/",
+            "count" : "1"
+          }, {
+            "item" : "http://www.brooklyn.cuny.edu",
+            "count" : "1"
+          }, {
+            "item" : "http://www.idcbrooklyn.org/",
+            "count" : "1"
+          }, {
+            "item" : "http://marymount.mmm.edu/",
+            "count" : "1"
+          }, {
+            "item" : "http://www.parsons.edu/html/splash.html",
+            "count" : "1"
+          }, {
+            "item" : "http://www.nyctc.cuny.edu",
+            "count" : "1"
+          }, {
+            "item" : "http://www.albany.net/~orchard/lich.html",
+            "count" : "1"
+          } ],
+          "smallest" : "http://marymount.mmm.edu/",
+          "cardinality" : "65"
+        },
+        "format" : { }
+      }, {
+        "id" : 234836674,
+        "name" : "BIN",
+        "dataTypeName" : "number",
+        "fieldName" : "bin",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 33434421,
+        "cachedContents" : {
+          "largest" : "5131068",
+          "non_null" : "77",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "2"
+          }, {
+            "item" : "1086514",
+            "count" : "2"
+          }, {
+            "item" : "4141870",
+            "count" : "2"
+          }, {
+            "item" : "2097309",
+            "count" : "1"
+          }, {
+            "item" : "1084081",
+            "count" : "1"
+          }, {
+            "item" : "4437065",
+            "count" : "1"
+          }, {
+            "item" : "1009722",
+            "count" : "1"
+          }, {
+            "item" : "1083341",
+            "count" : "1"
+          }, {
+            "item" : "1020567",
+            "count" : "1"
+          }, {
+            "item" : "1001357",
+            "count" : "1"
+          }, {
+            "item" : "3071650",
+            "count" : "1"
+          }, {
+            "item" : "3053786",
+            "count" : "1"
+          }, {
+            "item" : "1084785",
+            "count" : "1"
+          }, {
+            "item" : "1032132",
+            "count" : "1"
+          }, {
+            "item" : "1077376",
+            "count" : "1"
+          }, {
+            "item" : "1045585",
+            "count" : "1"
+          }, {
+            "item" : "1063719",
+            "count" : "1"
+          }, {
+            "item" : "4215630",
+            "count" : "1"
+          }, {
+            "item" : "3335891",
+            "count" : "1"
+          }, {
+            "item" : "2098636",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "74"
+        },
+        "format" : { }
+      }, {
+        "id" : 234836677,
+        "name" : "BBL",
+        "dataTypeName" : "text",
+        "fieldName" : "bbl",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 33434424,
+        "cachedContents" : {
+          "largest" : "5020400001",
+          "non_null" : "77",
+          "null" : "0",
+          "top" : [ {
+            "item" : "",
+            "count" : "3"
+          }, {
+            "item" : "4065170001",
+            "count" : "2"
+          }, {
+            "item" : "1008800024",
+            "count" : "2"
+          }, {
+            "item" : "1005750017",
+            "count" : "2"
+          }, {
+            "item" : "4010640002",
+            "count" : "1"
+          }, {
+            "item" : "5006200001",
+            "count" : "1"
+          }, {
+            "item" : "1014040044",
+            "count" : "1"
+          }, {
+            "item" : "1005760042",
+            "count" : "1"
+          }, {
+            "item" : "1009270055",
+            "count" : "1"
+          }, {
+            "item" : "4101040043",
+            "count" : "1"
+          }, {
+            "item" : "1001420100",
+            "count" : "1"
+          }, {
+            "item" : "1019570200",
+            "count" : "1"
+          }, {
+            "item" : "1002260001",
+            "count" : "1"
+          }, {
+            "item" : "2059580001",
+            "count" : "1"
+          }, {
+            "item" : "1018940056",
+            "count" : "1"
+          }, {
+            "item" : "4065070030",
+            "count" : "1"
+          }, {
+            "item" : "1012150053",
+            "count" : "1"
+          }, {
+            "item" : "2032100092",
+            "count" : "1"
+          }, {
+            "item" : "1019090009",
+            "count" : "1"
+          }, {
+            "item" : "1010870025",
+            "count" : "1"
+          } ],
+          "smallest" : "",
+          "cardinality" : "72"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "geo" : {
+          "parentUid" : "4kym-4xw5",
+          "isNbe" : true
+        },
+        "custom_fields" : {
+          "Update" : {
+            "Date Made Public" : "11/18/2014"
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-t39z.h9at-i539", "00000000-0000-0000-73A0-165D70267CF5", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.99465215457163 40.73519616365903)", "New School University / Parsons School Of Design", "66", "FIFTH AVENUE", "New York", "10011", "http://www.parsons.edu/html/splash.html", "1009619", "1005760042" ]
+, [ "row-tzhs~3ihv~zgad", "00000000-0000-0000-335B-67BE984199AC", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.99706966379965 40.73546280987431)", "New School University / The New School", "66", "WEST 12 STREET", "New York", "10011", "http://www.newschool.edu/", "1083136", "1005750017" ]
+, [ "row-u93x-yxyq_au93", "00000000-0000-0000-82B0-E23FDC5EFB39", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-74.00681944352681 40.723441859057495)", "Metropolitan College", "75", "VARICK STREET", "New York", "10013", "http://www.metropolitan.edu/", "1002934", "1002260001" ]
+, [ "row-ny6f~x94m.9qfj", "00000000-0000-0000-9003-98B18D744310", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.79439300079635 40.73944287003665)", "School Of Nursing Of St. Vincents Catholic Medical Centers, The", "175-05", "HORACE HARDING EXPRESSWAY", "Fresh Meadows", "11365", "http://www.svcmc.org/portal/training/allied_health.asp", "4148794", "4068890037" ]
+, [ "row-wc4t_2upa_m6wn", "00000000-0000-0000-6BCA-D085ED427EE8", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.84872054010768 40.721371886956774)", "Bramson Ort College", "69-30", "AUSTIN STREET", "Forest Hills", "11375", "http://www.bramsonort.org/", "4077468", "4032347501" ]
+, [ "row-khyx~7eu6~s57u", "00000000-0000-0000-4FA7-58BC57E19109", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.79169409417617 40.72560042547538)", "St. John's University / Queens Campus", "80-00", "UTOPIA PARKWAY", "Jamaica", "11432", "http://www.stjohns.edu/pls/portal30/sjudev.school.adminhome", "0", "" ]
+, [ "row-d8w6.zrux_hp4n", "00000000-0000-0000-89B7-5ECE1C2F359B", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.88262668869274 40.76781246562115)", "College Of Aeronautics, Laguardia Airport", "86-01", "23 AVENUE", "East Elmhurst", "11369", "http://www.aero.edu/", "4437065", "4010640002" ]
+, [ "row-8mb8-fxyu-9yv8", "00000000-0000-0000-06F4-60A2933BD856", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-74.09254228397026 40.61477207128726)", "Wagner College", "1", "CAMPUS ROAD", "Staten Island", "10301", "http://www.wagner.edu/", "5113453", "5006200001" ]
+, [ "row-gddn~t7ry.bjvt", "00000000-0000-0000-B6E9-E6C35C85549D", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.99395097259607 40.747110544796385)", "Fashion Institute Of Technology (Suny)", "", "7 AVENUE & WEST 27 STREET", "New York", "10001", "http://www.fitnyc.suny.edu", "1014252", "" ]
+, [ "row-nyy8.3gwv.hd4h", "00000000-0000-0000-72E4-116EF281E117", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.89290953903091 40.87459002193658)", "Herbert H Lehman College (Cuny)", "250", "BEDFORD PARK BLVD WEST", "Bronx", "10468", "http://www.lehman.cuny.edu", "2097309", "2032470165" ]
+, [ "row-vmrx~nyg6~3jw8", "00000000-0000-0000-0B3E-8951A84A03E7", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.92693174513067 40.817826050895235)", "Eugenio Maria De Hostos Comm Coll (Cuny)", "500", "GRAND CONCOURSE", "Bronx", "10451", "http://www.hostos.cuny.edu", "2001019", "2023430032" ]
+, [ "row-jfd9~w6a4_henv", "00000000-0000-0000-0253-C8A6619AC610", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.90883250414988 40.8568141091849)", "Bronx Community College (Cuny)", "80", "WEST 181 STREET", "Bronx", "10453", "http://www.bcc.cuny.edu", "2014573", "2032100092" ]
+, [ "row-3z55~rng6_jyx2", "00000000-0000-0000-D9DE-11F32892AFE4", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.95764418177963 40.66633782727834)", "Medgar Evers College (Cuny)", "1650", "BEDFORD AVENUE", "Brooklyn", "11225", "http://www.mec.cuny.edu", "3034075", "3012940001" ]
+, [ "row-zww5~tmwd-5dy4", "00000000-0000-0000-0E1C-3BDD1CF8004D", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.95348409151686 40.63176554821801)", "Brooklyn College (Cuny)", "2900", "BEDFORD AVENUE", "Brooklyn", "11210", "http://www.brooklyn.cuny.edu", "3347326", "3075520100" ]
+, [ "row-yjdg.5rrq_vevv", "00000000-0000-0000-DD20-147FB4B11A80", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.98766333253079 40.69552146244829)", "Nyc Technical College (Cuny)", "300", "JAY STREET", "Brooklyn", "11201", "http://www.nyctc.cuny.edu", "3335891", "3001280001" ]
+, [ "row-tku4.xkxa.2sb8", "00000000-0000-0000-E677-710290F29C7F", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.9449435524464 40.65507267868331)", "Health Science Center At Brooklyn (Suny)", "450", "CLARKSON AVENUE", "Brooklyn", "11203", "http://www.hscbklyn.edu", "3336186", "3048380001" ]
+, [ "row-wyky~nx7t~bccd", "00000000-0000-0000-2BED-58EEF4D8770C", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.95911733944205 40.775351150446056)", "Hunter College School Social Work (Cuny)", "129", "EAST 79 STREET", "New York", "10021", "http://www.hunter.cuny.edu", "1047468", "1015080012" ]
+, [ "row-cp7v.kvbj~pemh", "00000000-0000-0000-AAD4-A384A6DBBEED", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.98339828552592 40.74021907770699)", "Bernard M Baruch College (Cuny)", "155", "EAST 24 STREET", "New York", "10010", "http://www.baruch.cuny.edu", "1086514", "1008800024" ]
+, [ "row-58ws-iubv~tv5b", "00000000-0000-0000-6468-70A8623A92DE", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-74.01183075983597 40.71865472056016)", "Borough Of Manhattan Comm College (Cuny)", "199", "CHAMBERS STREET", "New York", "10013", "http://www.bmcc.cuny.edu", "1066406", "1001420050" ]
+, [ "row-qubs.qkwq-gp8c", "00000000-0000-0000-E007-97F1DA23F7BF", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.98218892338582 40.75449402764767)", "Nys College Of Optometry (Suny)", "33", "WEST 42 STREET", "New York", "10036", "http://www.sunyopt.edu", "1034197", "1012580018" ]
+, [ "row-3nnm.b8he~smyz", "00000000-0000-0000-B618-EFA0B1780B34", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.98348992428072 40.74845551426779)", "Cuny Grad School&University Center (Cuny)", "365", "FIFTH AVENUE", "New York", "10016", "http://www.gc.cuny.edu", "1017097", "1008647502" ]
+, [ "row-9w6y_rrr7~2wnr", "00000000-0000-0000-BE42-6E5744EE8F77", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.98339828552592 40.74021907770699)", "Baruch Grad Sch Of Politcal Management", "55", "LEXINGTON AVENUE", "New York", "10010", "http://www.baruch.cuny.edu", "1086514", "1008800024" ]
+, [ "row-v58a.4tk8~u8wf", "00000000-0000-0000-6CC6-B32D69EA7F3B", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.96474222642745 40.768569446676494)", "Hunter College (Cuny)", "695", "PARK AVENUE", "New York", "10021", "http://www.hunter.cuny.edu", "1081419", "1014030001" ]
+, [ "row-jimq-e4ia_4a52", "00000000-0000-0000-37A5-660AC35CD617", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.98825336846367 40.7702792782081)", "John Jay College Criminal Justice (Cuny)", "899", "10 AVENUE", "New York", "10019", "http://www.jjay.cuny.edu", "1027085", "1010870025" ]
+, [ "row-3kmg~7x4z~5qw6", "00000000-0000-0000-AE87-7067B83FD3EA", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.75759790651955 40.75383842336462)", "Queensborough Community College (Cuny)", "222-05", "56 AVENUE", "Oakland Gardens", "11364", "http://www.qcc.cuny.edu", "4444187", "4074900002" ]
+, [ "row-pab4-72qz.7reb", "00000000-0000-0000-E847-D0B77C34B12C", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.93512379108051 40.7439956895944)", "Fiorello H Laguardia Comm College (Cuny)", "31-10", "THOMSON AVENUE", "Long Island City", "11101", "http://www.lagcc.cuny.edu", "4003534", "4002780001" ]
+, [ "row-qxiv~57xp_fx43", "00000000-0000-0000-3355-56258CA130DC", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.82453915216028 40.737108318660674)", "School Of Law At Queens College (Cuny)", "65-21", "MAIN STREET", "Flushing", "11367", "http://web.law.cuny.edu", "4141868", "4065070030" ]
+, [ "row-nsz4.ns56_7486", "00000000-0000-0000-A6F8-D473D022DCAA", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.81829898457165 40.735954805733996)", "Queens College (Cuny)", "65-30", "KISSENA BOULEVARD", "Flushing", "11367", "http://www.qc.edu", "4141870", "4065170001" ]
+, [ "row-mx3r-ns6f~yhvp", "00000000-0000-0000-E4A9-DD0AD1820905", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.81829898457165 40.735954805733996)", "Queens Coll Sch Math & Science", "65-30", "KISSENA BOULEVARD", "Flushing", "11367", "http://www.qc.edu/", "4141870", "4065170001" ]
+, [ "row-fd2k-s2he~p2yw", "00000000-0000-0000-0D9A-29D19A3EC412", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.79625692788854 40.70172969617277)", "York College (Cuny)", "94-20", "GUY R BREWER BOULEVARD", "Jamaica", "11433", "http://www.york.cuny.edu", "4215630", "4101040043" ]
+, [ "row-9sc9.gvde-z6z4", "00000000-0000-0000-1F9E-33680F095672", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-74.14887611925316 40.60063483947812)", "College Of Staten Island (Cuny)", "2800", "VICTORY BOULEVARD", "Staten Island", "10314", "http://www.csi.cuny.edu", "5131068", "5020400001" ]
+, [ "row-w7tz~9htg.35cj", "00000000-0000-0000-7416-717CE3F93BAD", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.92038932251565 40.816519958982994)", "College Of New Rochelle, The / School Of New Resources/John Cardinal O?Connor Campus", "332", "EAST 149 STREET", "Bronx", "10451", "http://www.cnr.edu/", "2000898", "2023300034" ]
+, [ "row-jaw5-pv5d-uaa2", "00000000-0000-0000-10F3-A0BD25E4401F", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.887390126939 40.86125886238194)", "Fordham University", "441", "EAST FORDHAM ROAD", "Bronx", "10458", "http://www.fordham.edu/", "2102025", "2032730001" ]
+, [ "row-r7v8~msmv-497z", "00000000-0000-0000-2387-19A34F82F909", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.90190577626052 40.889767124763196)", "Manhattan College", "4513", "MANHATTAN COLLEGE PARKWAY", "Bronx", "10471", "http://www.manhattan.edu/", "2087584", "2058030801" ]
+, [ "row-2bnt.ycir.rpnp", "00000000-0000-0000-4077-6A328679713F", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.90284544181063 40.91263942581352)", "College Of Mount St. Vincent", "6301", "RIVERDALE AVENUE", "Bronx", "10471", "http://www.cmsv.edu/", "2098636", "2059580001" ]
+, [ "row-94hz_tjhz~d97n", "00000000-0000-0000-261B-AE1E69D49163", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.827002596629 40.88021177487783)", "College Of New Rochelle, The / School Of New Resources/Co-Op City Campus", "755", "CO-OP CITY BOULEVARD", "Bronx", "10475", "http://www.cnr.edu/", "2072365", "2051410390" ]
+, [ "row-n84s.qshh_3cya", "00000000-0000-0000-6D7B-18074AF00663", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.98129553261923 40.691699768257685)", "Long Island University / Brooklyn Campus", "1", "UNIVERSITY PLAZA", "Brooklyn", "11201", "http://www.liu.edu/liu_start.html", "3338885", "3020850001" ]
+, [ "row-urnp-vbzv.img2", "00000000-0000-0000-3B34-0C4E023B5883", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.9456342920531 40.6799503315382)", "College Of New Rochelle, The / School Of New Resources/Brooklyn Campus", "1368", "FULTON STREET", "Brooklyn", "11216", "http://www.cnr.edu/", "3053786", "3018620014" ]
+, [ "row-jg8p-4xk9_u32j", "00000000-0000-0000-9F9B-74530FA0B221", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.98308348320116 40.69230564267101)", "Institute Of Design And Construction", "141", "WILLOUGHBY STREET", "Brooklyn", "11201", "http://www.idcbrooklyn.org/", "3058246", "3020600001" ]
+, [ "row-6ak4-qbnh-zheu", "00000000-0000-0000-922E-A4AFDC3B0940", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.9921109815578 40.69306855757583)", "St. Francis College", "180", "REMSEN STREET", "Brooklyn", "11201", "http://www.stfranciscollege.edu/", "3335934", "3002550036" ]
+, [ "row-e7ha_5s93~i56j", "00000000-0000-0000-581E-64780D760A81", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.95775285303331 40.71658090096847)", "Boricua College, Northside Center", "186", "NORTH 6 STREET", "Brooklyn", "11211", "http://www.boricuacollege.edu/", "3062216", "3023360018" ]
+, [ "row-rpvf.6xgh_7zx4", "00000000-0000-0000-3CC7-E332BB9619AD", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.9641713381281 40.69179151661372)", "Pratt Institute", "200", "WILLOUGHBY AVENUE", "Brooklyn", "11205", "http://www.pratt.edu/", "3334961", "3019200001" ]
+, [ "row-p2sa.hg9c_qpnz", "00000000-0000-0000-B147-69A0E7836CDB", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.96769005811436 40.69052201077746)", "St. Joseph's College / Brooklyn Campus", "245", "CLINTON AVENUE", "Brooklyn", "11205", "http://www.sjcny.edu/home.html", "3332264", "3019160013" ]
+, [ "row-knxy~drjn.v6d4", "00000000-0000-0000-43BE-50054B867ABF", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.99740081950995 40.69055915437317)", "Long Island College Hospital School Of Nursing", "339", "HICKS STREET", "Brooklyn", "11201", "http://www.albany.net/~orchard/lich.html", "3002928", "3002840001" ]
+, [ "row-sqji_ab99.vpc9", "00000000-0000-0000-CF45-880E180495B2", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.98565829535117 40.69463215570763)", "Polytechnic University / Brooklyn-Metrotech Campus", "6", "METROTECH CENTER", "Brooklyn", "11201", "http://www.poly.edu/index_ie.cfm", "3331744", "3001427501" ]
+, [ "row-7wi4.we3y.uizs", "00000000-0000-0000-0D66-04B1FEE72803", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.94248381837252 40.701296859100935)", "Boricua College, Graham Center", "9", "GRAHAM AVENUE", "Brooklyn", "11206", "http://www.boricuacollege.edu/", "3071650", "3031260001" ]
+, [ "row-4jaw~mhsc~ukqe", "00000000-0000-0000-215D-D9C30AA8B9D6", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-74.00479825356436 40.71110496435334)", "Pace University / New York City Campus", "1", "PACE PLAZA", "New York", "10038", "http://www.pace.edu/", "1001357", "1001020001" ]
+, [ "row-ctaj_qs7h_533x", "00000000-0000-0000-CA74-ED3039B68360", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-74.01263555490442 40.715434404674916)", "St. John's University / Manhattan Campus", "101", "MURRAY STREET", "New York", "10007", "http://www.stjohns.edu/pls/portal30/sjudev.school.adminhome", "1001542", "1001420100" ]
+, [ "row-6gzn.tmcd~gwi4", "00000000-0000-0000-0244-F5998412CD07", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.98514610080309 40.770821960815844)", "Fordham University/Lincoln Center Campus", "113", "WEST 60 STREET", "New York", "10023", "http://www.fordham.edu/", "1028830", "1011320020" ]
+, [ "row-8mv8.aetf.n63v", "00000000-0000-0000-E982-8E0673C2D98C", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.9616669913283 40.806815074075836)", "Columbia University", "1130", "AMSTERDAM AVENUE", "New York", "10027", "http://www.columbia.edu/", "1084846", "1018860001" ]
+, [ "row-rw7s-pevw-w84s", "00000000-0000-0000-F505-26E5B8C5A34F", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.96148487501755 40.81239324826694)", "Manhattan School Of Music", "120", "CLAREMONT AVENUE", "New York", "10027", "http://www.msmnyc.edu/", "1076684", "1019930001" ]
+, [ "row-ndkw~n8ei-6ken", "00000000-0000-0000-6C74-36EE8DCA7A54", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.95662756289357 40.762889704137415)", "Rockefeller University, The", "1230", "YORK AVENUE", "New York", "10021", "http://www.rockefeller.edu/", "0", "" ]
+, [ "row-2tdv_4ir8~76yz", "00000000-0000-0000-2BC7-3E7801AEA8D2", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-74.01295986865433 40.71458526392435)", "College Of New Rochelle, The / School Of New Resources/District Council 37 Campus", "125", "BARCLAY STREET", "New York", "10007", "http://www.cnr.edu/", "1001417", "1001280026" ]
+, [ "row-ps38~9h54.7wik", "00000000-0000-0000-2DDB-FA8482B12419", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.95472938360106 40.76473776409553)", "Cornell University / Weill Medical College Of Cornell University", "1300", "YORK AVENUE", "New York", "10021", "http://www.med.cornell.edu/", "1084785", "1014800001" ]
+, [ "row-maru_85km-rfka", "00000000-0000-0000-03AD-A6576B827CE6", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.94772625973405 40.80824453429463)", "College Of New Rochelle, The / School Of New Resources/Rosa Parks Campus", "144", "WEST 125 STREET", "New York", "10027", "http://www.cnr.edu/", "1057819", "1019090009" ]
+, [ "row-k8qt.nnkf~sc8d", "00000000-0000-0000-EF72-5D71937A1DBD", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.97466142784745 40.78642497243753)", "New School University / Mannes College Of Music", "150", "WEST 85 STREET", "New York", "10024", "http://www.mannes.edu/", "1032132", "1012150053" ]
+, [ "row-kgqc~28au-pyyx", "00000000-0000-0000-E7FC-52C6155BEA45", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.96245272240729 40.76858064958243)", "New York School Of Interior Design", "170", "EAST 70 STREET", "New York", "10021", "http://www.nysid.edu/", "1042502", "1014040044" ]
+, [ "row-6r4v_bt5v-m8v3", "00000000-0000-0000-EDEC-308873B13250", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.94025622759209 40.80494109353117)", "New York College Of Podiatric Medicine", "1800", "PARK AVENUE", "New York", "10035", "http://www.nycpm.edu/", "1081382", "1017490033" ]
+, [ "row-sevb_jfex_9uge", "00000000-0000-0000-FF3B-CC6AE12901A4", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.94169697317783 40.80324528879269)", "Helene Fuld College Of Nursing Of North General Hospital", "1879", "MADISON AVENUE", "New York", "10035", "http://www.helenefuld.edu/", "1077376", "1017470035" ]
+, [ "row-fxcu_hcrh~bcwb", "00000000-0000-0000-635F-819C9C934855", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.99787780140895 40.73207510379186)", "New York University", "22", "WASHINGTON SQUARE NORTH", "New York", "10011", "http://www.nyu.edu/", "1080111", "1005510011" ]
+, [ "row-mz38_iu7z-4bqh", "00000000-0000-0000-B5A1-348C9C1A0BA1", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.95974673761155 40.76872195160445)", "Marymount Manhattan College", "221", "EAST 71 STREET", "New York", "10021", "http://marymount.mmm.edu/", "1083341", "1014260035" ]
+, [ "row-qc4m~6bej-2dz4", "00000000-0000-0000-4C0D-4BCD84051E89", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.9953620336229 40.74868111655497)", "College Of New Rochelle, The / School Of New Resources/New York Theological Seminary Campus", "252", "WEST 29 STREET", "New York", "10001", "http://www.cnr.edu/", "1014271", "1007780070" ]
+, [ "row-mw6w~h7b2_pxx2", "00000000-0000-0000-88EA-6E8308DC7EDF", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.99057872656032 40.74240548177522)", "Touro College", "27", "WEST 23 STREET", "New York", "10010", "http://www.touro.edu/", "1015580", "1008250024" ]
+, [ "row-fs42_zph7-yydr", "00000000-0000-0000-31B1-CC3C0FD1D6DF", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.99539777630206 40.724530937742024)", "Pratt Institute / Manhattan Campus", "295", "LAFAYETTE STREET", "New York", "10012", "http://www.pratt.edu/", "1007941", "1005100045" ]
+, [ "row-dqzk-wpks-i2mr", "00000000-0000-0000-9FF0-5EB4115A2EA6", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.99162508259106 40.72813483481943)", "Cooper Union, The / For The Advancement Of Science And Art Suite 300", "30", "COOPER SQUARE", "New York", "10003", "http://www.cooper.edu/", "1008779", "1005440048" ]
+, [ "row-zncf_94ji~8q6m", "00000000-0000-0000-C3D1-BD09B893AB49", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.96394826057096 40.80913269168725)", "Barnard College", "3009", "BROADWAY", "New York", "10027", "http://www.barnard.edu/", "1082351", "1019890001" ]
+, [ "row-2bbt~4izw.pka5", "00000000-0000-0000-C869-48EE92BDB506", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.96001031213936 40.811801634463286)", "Jewish Theological Seminary / List College Of Jewish Studies", "3080", "BROADWAY", "New York", "10027", "http://www.jtsa.edu/", "1059669", "1019770001" ]
+, [ "row-tc3x.c87m-jehk", "00000000-0000-0000-49FA-AFF64FF3AA7B", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.9810549374029 40.73686062472525)", "Phillips Beth Israel School Of Nursing", "310", "EAST 22 STREET", "New York", "10010", "http://wehealny.org/bischoolofnursing/index.html", "1020567", "1009270055" ]
+, [ "row-j8eq~di5d_628h", "00000000-0000-0000-065A-02C2187DC92B", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.94587880144374 40.83347318351127)", "Boricua College", "3755", "BROADWAY", "New York", "10032", "http://www.boricuacollege.edu/", "1063250", "1021340053" ]
+, [ "row-zdzj-5gqk-triu", "00000000-0000-0000-9746-7578F12E44FF", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.9553818130165 40.76523174250826)", "Cornell University / Weill Graduate School Of Medical Sciences Of Cornell University", "445", "EAST 69 STREET", "New York", "10021", "http://www.med.cornell.edu/gradschool/", "1045585", "1014640021" ]
+, [ "row-e29g-cxxt~zmcu", "00000000-0000-0000-B043-92EB48381E5D", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.98864638744395 40.767873514551425)", "American Academy Mcallister Institute Of Funeral Service", "450", "WEST 56 STREET", "New York", "10019", "http://www.a-a-m-i.org/", "1026841", "1010650001" ]
+, [ "row-nmkj-jzby.raqp", "00000000-0000-0000-35B1-1C69B5A12180", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.92980468839204 40.85053977419417)", "Yeshiva University", "500", "WEST 185 STREET", "New York", "10033", "http://www.yu.edu/", "1063719", "1021560016" ]
+, [ "row-fjt4_da7v~h2cm", "00000000-0000-0000-AD32-1DB0A4152262", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.96028717108886 40.81029418631306)", "Teachers College, Columbia University", "525", "WEST 120 STREET", "New York", "10027", "http://www.tc.columbia.edu/", "1083643", "1019750001" ]
+, [ "row-asi8-dq7p~7shb", "00000000-0000-0000-4D04-A43F84B8A932", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.99649861360797 40.736553887838184)", "New School University / Jazz And Contemporary Music Program", "55", "WEST 13 STREET", "New York", "10011", "http://www.newschool.edu/jazz/", "1009722", "1005770071" ]
+, [ "row-p24c-is78_83mf", "00000000-0000-0000-E896-6AD32C0A9B6A", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.9666683641188 40.80557808768119)", "Bank Street College Of Education / Graduate School Of Education", "610", "WEST 112 STREET", "New York", "10025", "http://www.bankstreet.edu/", "1057331", "1018940056" ]
+, [ "row-bwuk~fqw9-s24u", "00000000-0000-0000-2E10-47A4FBB4C6DF", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.99747679976271 40.73526236196918)", "New School University / Eugene Lang College", "65", "WEST 11 STREET", "New York", "10011", "http://www.lang.edu/", "1009567", "1005750017" ]
+, [ "row-9zvr-ghna.jskn", "00000000-0000-0000-1164-0D84A7923548", 0, 1450729236, null, 1450729236, null, "{ }", "POINT (-73.95026316293709 40.81940116680288)", "The City College of New York", "160", "CONVENT AVENUE", "New York", "10031", "http://www1.ccny.cuny.edu/", "1084081", "1019570200" ]
+ ]
+}
