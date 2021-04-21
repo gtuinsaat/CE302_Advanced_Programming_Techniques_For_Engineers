@@ -5,6 +5,7 @@
 #%% First coding
 
 import multiprocessing as mp
+import pandas as pd
 
 
 n_cpu = mp.cpu_count()
@@ -27,7 +28,7 @@ def random_squared( seed ):
 rakam = 100_000
 
 # %%
-
+timeSerial = pd.Dataframe(columns=["Rakam","TimeElapsed"])
 if __name__ == "__main__" :
 
     t0 = time.time()
@@ -38,12 +39,16 @@ if __name__ == "__main__" :
         results.append( random_squared(i) ) ;
 
     t1 = time.time()
+    timeElapsed = round( t1-t0 , 3)
 
-    print( f"Serial Process: Time elapsed {round( t1-t0 , 3)} secods")
+    print( f"Serial Process: Time elapsed {timeElapsed} secods")
 
 # %%
 
 if __name__ == "__main__" :
+
+
+
 
     t0 = time.time()
 
