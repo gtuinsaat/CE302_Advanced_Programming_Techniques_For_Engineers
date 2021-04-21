@@ -25,18 +25,19 @@ def random_squared( seed ):
     return random_num ** 2
 # %%
 
-rakam = 100_000
+rakam = 1_000
 
 # %%
-timeSerial = pd.Dataframe(columns=["Rakam","TimeElapsed"])
+timeSerial = pd.DataFrame(columns=["Rakam","TimeElapsed"])
+
 if __name__ == "__main__" :
 
     t0 = time.time()
 
-    results = []
+    results1 = []
 
     for i in  range( rakam ):
-        results.append( random_squared(i) ) ;
+        results1.append( random_squared(i) ) ;
 
     t1 = time.time()
     timeElapsed = round( t1-t0 , 3)
@@ -48,15 +49,13 @@ if __name__ == "__main__" :
 if __name__ == "__main__" :
 
 
-
-
     t0 = time.time()
 
     n_cpu = mp.cpu_count()
 
     pool = mp.Pool( processes= 4 , )
 
-    results = [ pool.map( random_squared ,  range(rakam))]
+    results2 = [ pool.map( random_squared ,  range(rakam))]
 
     t1 = time.time()
 
